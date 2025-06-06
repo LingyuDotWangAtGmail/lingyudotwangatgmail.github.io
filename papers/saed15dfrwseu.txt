@@ -1,0 +1,13 @@
+@article{saed15dfrwseu,
+  author    = {Saed Alrabaee and
+               Paria Shirani and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {SIGMA: A Semantic Integrated Graph Matching Approach for Identifying Reused
+Functions in Binary Code},
+  journal   = {Digital Investigation},
+  volume    = {12},
+  number    = {Supplement 1},
+  year      = {2015},
+  pages     = {S61-S71}
+}

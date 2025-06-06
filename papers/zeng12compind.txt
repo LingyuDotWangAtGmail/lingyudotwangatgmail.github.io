@@ -1,0 +1,13 @@
+@article{zeng12compind,
+ author = {Zeng, Yong and Wang, Lingyu and Deng, Xiaoguang and Cao, Xinlin and Khundker, Nafisa},
+ title = {Secure collaboration in global design and supply chain environment: Problem analysis and literature review},
+ journal = {Comput. Ind.},
+ issue_date = {August, 2012},
+ volume = {63},
+ number = {6},
+ month = aug,
+ year = {2012},
+ pages = {545--556},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands}
+} 

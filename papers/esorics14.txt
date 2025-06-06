@@ -1,0 +1,8 @@
+@inproceedings{wang14esorics,
+ author = {Wang, L. and Zhang, M. and Jajodia, S. and Singhal, A. and Albanese, M.},
+ title = {Modeling Network Diversity for Evaluating the Robustness of Networks against Zero-Day Attacks},
+ booktitle = {Proceedings of the 19th European Symposium on Research in Computer Security (ESORICS'14) },
+ year = {2014},
+ pages = {494-511},
+ }
+

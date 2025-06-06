@@ -1,0 +1,12 @@
+@inproceedings{zhang08dbsec,
+ author = {Zhang, Lei and Wang, Lingyu and Jajodia, Sushil and Brodsky, Alexander},
+ title = {Exclusive Strategy for Generalization Algorithms in Micro-data Disclosure},
+ booktitle = {Proceeedings of the 22nd annual IFIP WG 11.3 working conference on Data and Applications Security},
+ year = {2008},
+ isbn = {978-3-540-70566-6},
+ pages = {190--204},
+ location = {London, UK},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ }
+

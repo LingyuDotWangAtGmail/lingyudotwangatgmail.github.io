@@ -1,0 +1,7 @@
+@inproceedings{wang04ssp,
+  author    = {Wang, L. and Jajodia, S. and Wijesekera, D.},
+  title     = {Securing OLAP data cubes against privacy breaches},
+  booktitle = {IEEE Symposium on Security and Privacy (S&P 2004)},
+  year      = {2004},
+  pages     = {161-175},
+}

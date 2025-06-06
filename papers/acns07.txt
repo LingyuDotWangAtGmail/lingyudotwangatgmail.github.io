@@ -1,0 +1,12 @@
+@inproceedings{xu07acns,
+ author = {Xu, Xuxin and Wang, Lingyu and Youssef, Amr and Zhu, Bo},
+ title = {Preventing Collusion Attacks on the One-Way Function Tree (OFT) Scheme},
+ booktitle = {ACNS '07: Proceedings of the 5th international conference on Applied Cryptography and Network Security},
+ year = {2007},
+ isbn = {978-3-540-72737-8},
+ pages = {177--193},
+ location = {Zhuhai, China},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ }
+

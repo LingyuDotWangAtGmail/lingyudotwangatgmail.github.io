@@ -1,0 +1,7 @@
+@inproceedings{cheng12srds,
+author = {Cheng, Pengsu and Wang, Lingyu and Jajodia, Sushil and Singhal, Anoop},
+title = {Aggregating CVSS base scores for semantics-rich network security metrics},
+booktitle = {Proceedings of the 31st IEEE International Symposium on Reliable Distributed Systems ({SRDS} 2012)},
+year = {2012},
+publisher = {IEEE Computer Society}
+}

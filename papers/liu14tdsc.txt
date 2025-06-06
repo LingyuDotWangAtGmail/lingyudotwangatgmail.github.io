@@ -1,0 +1,12 @@
+@article{liu14tdsc,
+author = {Wen Ming Liu, Lingyu Wang, Pengsu Cheng, Kui Ren, Shunzhi Zhu and Mourad Debbabi},
+title = {PPTP: Privacy-Preserving Traffic Padding in Web-Based Applications},
+journal ={IEEE Transactions on Dependable and Secure Computing},
+volume = {11},
+number = {6},
+issn = {1545-5971},
+year = {2014},
+pages = {538-552},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA}
+}

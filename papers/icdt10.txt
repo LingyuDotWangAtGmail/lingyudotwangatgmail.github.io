@@ -1,0 +1,8 @@
+@inproceedings{liu10icdt,
+ author = {Liu, Wen Ming and Wang, Lingyu and Zhang, Lei},
+ title = {K-Jump Strategy for Privacy Preserving Micro-Data Disclosure},
+ booktitle = {ICDT '10: Proceedings of the 13th International Conference on Database Theory},
+ year = {2010},
+ pages = {},
+ }
+

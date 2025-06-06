@@ -1,0 +1,13 @@
+@article{wang07comcom,
+ author = {Wang, Lingyu and Noel, Steven and Jajodia, Sushil},
+ title = {Minimum-cost network hardening using attack graphs},
+ journal = {Comput. Commun.},
+ volume = {29},
+ number = {18},
+ year = {2006},
+ issn = {0140-3664},
+ pages = {3812--3824},
+ publisher = {Butterworth-Heinemann},
+ address = {Newton, MA, USA},
+ }
+

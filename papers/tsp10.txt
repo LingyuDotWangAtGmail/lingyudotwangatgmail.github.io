@@ -1,0 +1,8 @@
+@inproceedings{cheng10tsp,
+ author = {Cheng, Pengsu and Wang, Lingyu and Long, Tao},
+ title = {Compressing Attack Graphs through Reference Encoding,},
+ booktitle = {Proceedings of the 3rd IEEE International Symposium on Trust, Security and Privacy for Emerging Applications (TSP 2010) },
+ year = {2010},
+ pages = {1026-1031},
+ }
+

@@ -1,0 +1,162 @@
+
+<!-- saved from url=(0043)https://www.ece.uvic.ca/~cai/checklist.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Sugih Jamin Paper Reading and Writing Check Lists</title></head>
+<body alink="#004080" bgcolor="#ffffff" link="#0060ff" text="#000000" vlink="#004080">
+<center>
+<p>&nbsp;</p><p>
+</p><h3>Paper Reading and Writing Check Lists</h3><p></p>
+Sugih Jamin<br>
+<em>jamin@eecs.umich.edu</em><p></p>
+November 2003
+</center>
+<p>&nbsp;</p><p>
+</p><h4>Paper Reading Checklist:</h4>
+Here's a list of questions to keep in mind when reading papers:
+<dl>
+<dt> Context and Problem Statement:</dt><dd>
+     What problems are the authors trying to solve?<br>
+     Are they important problems?  Why or why not?<p></p>
+
+</dd><dt> New Idea:</dt><dd>
+     What new architecture, algorithm, mechanism, methodology,
+     or perspective are the authors proposing?<br>
+     (How is the new idea different from all other ideas to
+     solve the same problem?)<br>
+     Some people also put a lot of emphasis on the usefulness
+     and practicality of the idea.<p></p>
+
+</dd><dt> What to Evaluate?</dt><dd>
+     What, according to the authors, need to be evaluated to
+     confirm the worthiness of their new idea?<br>
+     Runtime?  Throughput?  Cache miss ratio?  Utilization?<p>
+
+</p></dd><dt> How to Evaluate?</dt><dd>
+     How did the authors go about conducting the evaluation?<br>
+     Did they prove theorems?<br>
+     Did they run simulations?<br>
+     Did they build a system?<br>
+     Did they collect traces from existing systems?<p>
+
+</p></dd><dt> Was the Evaluation Correct and Adequate?</dt><dd>
+     How was their data collection done?<br>
+     Do you agree with their analysis of the data?<br>
+     Do you agree with their conclusions about the data?<br>
+     Do you have new interpretation of their data?<br>
+     Can you suggest new ways to evaluate their idea?<p>
+
+</p></dd><dt> Assumptions, Drawbacks, Extensions:</dt><dd>
+     Can you think of other aspects of their idea that
+     need to be evaluated?<br>
+     Can you think of extensions or modifications to their
+     idea to improve it?<br>
+     How would you evaluate your improvement?<br>
+     Can you apply their idea or method of evaluation
+     to your own project?<br>
+     Do the authors make any assumptions that are not
+     valid/realistic?<br>
+     Can you come up with a more general solution that 
+     does not rely on one or more of the assumptions
+     the authors make?<p></p>
+</dd></dl>
+
+<h4>Paper Writing Checklist:</h4>
+The check list for writing your paper is basically the same
+as above, with the following emphasis:
+<dl>
+<dt> Context and Problem Statement:</dt><dd>
+     Unless you are getting on a bandwagon, you need to
+     establish why the problem you are studying is
+     important.  This is very difficult to do.
+     It may take several face-to-face meetings, which 
+     is why you need to present your idea in workshops
+     and not wait until your masterpiece is completed
+     before revealing it.<p></p>
+
+</dd><dt> New Idea:</dt><dd>
+     If you are getting on a bandwagon, you need to show
+     how your idea is different from all the other ideas
+     on the bandwagon.  In all cases, you need to show 
+     that your idea is ``useful'' to the reader personally.
+     If your idea is a long-term solution that requires
+     wide-spread adoption to show off its full glory, it
+     must have a migration path <em>and</em> it 
+     must provide short-term incentives to entice adoption.
+     The short-term incentives must be compellingly useful 
+     without full adoption of your idea.<p></p>
+
+     You <bf>MUST</bf> establish the importance and relevance
+     of the problem you're addressing and the novelty and 
+     usefulness of your idea in the Abstract and Introduction 
+     of your paper.  Some people don't read beyond the
+     Abstract and Introduction, unfortunately.  You MUST 
+     make your case here.<p></p>
+
+     Everett Rogers and others attribute the following 
+     characteristics to "innovation diffusion":
+     <ol>
+     <li> Relative advantage: how is this a better solution?
+     </li><li> Compatibility: is it backward compatible with 
+             current solutions?
+     </li><li> Complexity: does it follow the KISS principle?
+     </li><li> Triability: is it easy and cheap for people to try 
+          it out without commitment (which is a function of 
+          compatibility and complexity and price)?
+     </li><li> Observability: how obvious is the relative advantage?
+     </li><li> Image: how cool is it?
+     </li><li> Trust: who proposed it?
+     </li></ol><p></p>
+
+     For those pursuing a doctoral degree, it would also be 
+     useful to ascertain the importance and relevance 
+     of the problem you're addressing and the novelty and
+     feasibility of your approach, before you invest
+     three to six years of your life on it.<p></p>
+
+</dd><dt> Evaluation:</dt><dd>
+     Evaluation must be correct.  A careful reader will
+     check the correctness of your evaluation.  A careful
+     reader may even appreciate your systematic, methodological
+     handling of data and the elegance of your model and
+     analysis.  Or your paper can be killed by its evaluation
+     section if the reader doesn't like your problem statement,
+     or your idea, or you.<p></p>
+
+</dd><dt> Data Presentation:</dt><dd>
+     The evaluation section is NOT simply your lab journal.  
+     Don't just document the experiments done and the data collected.  
+     This will be very boring to read and not very useful.
+     The main purpose of the evaluation section is to
+     present insights about your idea.  Start off the section
+     with the questions you want to answer; that is, why did
+     you do the experiments you did.  Along with the questions, 
+     present what you <em>expect</em> the outcome of your experiments
+     to be.  Justify your expectations.  Then for each question, 
+     present the data that either confirms or refutes your expectations.
+     When presenting the data, explain how to read your graphs, if any.
+     It is usually most exciting if your expectations are refuted,
+     this is usually when you have new insights to contribute (assuming it
+     is not just a bug in your implementation).  One useful rule of
+     thumb is to minimize the data you present.  Remove as much as
+     possible, leave only the essential data that helps you make
+     your case.  Somewhere in the Evaluation section you must document 
+     your experiment setup in enough details that others can repeat your 
+     experiments.   This would be useful if your paper present such 
+     startling insights that people would want to repeat your experiments.<p></p>
+
+</dd><dt> Algorithm, Protocol, APIs Presentation:</dt><dd>
+     If your paper calls for a presentation of an algorithm, protocol,
+     or APIs, the best way to present these is by giving a tutorial
+     of their usages.  Come up with an example scenario and walk the 
+     reader through the algorithm, protocol, or APIs as used in the
+     scenario.  Discuss the relevant details and subtleties of your
+     algorithm, protocol, or APIs only as they come up in the context 
+     of the example scenario, put other details in a separate 
+     specification document and refer the reader to it.<p></p>
+
+</dd><dt> If your paper makes you enemy, expect the consequences.<p></p>
+
+</dt><dt> Pray hard if you are submitting your paper for publication.<p></p>  
+</dt></dl>
+
+If your paper doesn't get accepted despite having followed all the 
+above guidelines, you need to pray harder and make less enemy.<p></p></body></html>

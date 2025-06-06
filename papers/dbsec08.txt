@@ -1,0 +1,12 @@
+@inproceedings{wang08dbsec,
+ author = {Wang, Lingyu and Islam, Tania and Long, Tao and Singhal, Anoop and Jajodia, Sushil},
+ title = {An Attack Graph-Based Probabilistic Security Metric},
+ booktitle = {Proceeedings of the 22nd annual IFIP WG 11.3 working conference on Data and Applications Security},
+ year = {2008},
+ isbn = {978-3-540-70566-6},
+ pages = {283--296},
+ location = {London, UK},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ }
+

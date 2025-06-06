@@ -1,0 +1,13 @@
+@article{yao09jcs,
+ author = {Yao, Chao and Wang, Lingyu and Wang, X. Sean and Bettini, Claudio and Jajodia, Sushil},
+ title = {Evaluating privacy threats in released database views by symmetric indistinguishability},
+ journal = {J. Comput. Secur.},
+ volume = {17},
+ number = {1},
+ year = {2009},
+ issn = {0926-227X},
+ pages = {5--42},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+

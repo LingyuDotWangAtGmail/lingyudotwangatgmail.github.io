@@ -1,0 +1,13 @@
+@article{DBLP:journals/di/AlrabaeeSPWD14,
+  author    = {Saed Alrabaee and
+               Noman Saleem and
+               Stere Preda and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {OBA2: An Onion approach to Binary code Authorship Attribution},
+  journal   = {Digital Investigation},
+  volume    = {11},
+  number    = {1},
+  year      = {2014},
+  pages     = {S94-S103}
+}

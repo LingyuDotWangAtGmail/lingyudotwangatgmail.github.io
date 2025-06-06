@@ -1,0 +1,9 @@
+@article{zeng12compind,
+ author = {Zhang, Da Yong and Cao, Xinlin and Wang, Lingyu and Zeng, Yong},
+ title = {Mitigating the risk of information leakage in a two-level supply chain through optimal supplier selection},
+ journal = {Journal of Intelligent Manufacturing},
+ volume = {23},
+ number = {4},
+ year = {2012},
+ pages = {1351-1364}
+} 

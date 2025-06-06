@@ -1,0 +1,12 @@
+@inproceedings{wang04fmse,
+ author = {Wang, Lingyu and Wijesekera, Duminda and Jajodia, Sushil},
+ title = {A logic-based framework for attribute based access control},
+ booktitle = {FMSE '04: Proceedings of the 2004 ACM workshop on Formal methods in security engineering},
+ year = {2004},
+ isbn = {1-58113-971-3},
+ pages = {45--55},
+ location = {Washington DC, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+

@@ -1,0 +1,9 @@
+@article{noel10igngc,
+author = {Noel, Steven and Wang, Lingyu and Singhal, Anoop and Jajodia, Sushil},
+title = {Measuring security risks of networks using attack graphs},
+journal ={International Journal of Next-Generation Computing},
+volume = {1},
+number = {1},
+year = {2010},
+pages = {113--123}
+}

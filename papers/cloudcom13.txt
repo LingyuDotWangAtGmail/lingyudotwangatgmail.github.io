@@ -1,0 +1,8 @@
+@inproceedings{wenming13cloudcom,
+ author = {Liu, W. M. and Wang, L. and Ren, K. and Debbabi, M.},
+ title = {Background Knowledge-Resistant Traffic Padding for Preserving User Privacy in Web-Based Applications},
+ booktitle = {Proceedings of The 5th IEEE International Conference and on Cloud Computing Technology and Science ({IEEE CloudCom} 2013)},
+ year = {2013},
+ pages = {}
+ }
+

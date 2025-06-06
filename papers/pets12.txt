@@ -1,0 +1,10 @@
+@inproceedings{liu12pets,
+ author = {Liu, Wen Ming and Wang, Lingyu and Ren, Kui and Debbabi, Mourad and Cheng, Pengsu},
+ title = {k-Indistinguishable Traffic Padding in Web Applications},
+ booktitle = {Proceedings of the 12th Privacy Enhancing Technologies Symposium ({PET} 2012)},
+ year = {2012},
+ location = {Vigo, Spain},
+ pages = {79-99},
+publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg}
+} 

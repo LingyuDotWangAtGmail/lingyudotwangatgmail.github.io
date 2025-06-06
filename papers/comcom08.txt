@@ -1,0 +1,13 @@
+@article{comcom08,
+ author = {Otrok, Hadi and Mohammed, Noman and Wang, Lingyu and Debbabi, Mourad and Bhattacharya, Prabir},
+ title = {A game-theoretic intrusion detection model for mobile ad hoc networks},
+ journal = {Comput. Commun.},
+ volume = {31},
+ number = {4},
+ year = {2008},
+ issn = {0140-3664},
+ pages = {708--721},
+ publisher = {Butterworth-Heinemann},
+ address = {Newton, MA, USA},
+ }
+

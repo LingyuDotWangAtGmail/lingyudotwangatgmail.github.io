@@ -1,0 +1,8 @@
+@inproceedings{wang10esorics,
+ author = {Wang, Lingyu and Jajodia, Sushil and Singhal, Anoop and Noel, Steven},
+ title = {k-Zero day safety: Measuring the security risk of networks against unknown attacks},
+ booktitle = {Proceedings of the 15th European Symposium on Research in Computer Security (ESORICS'10) },
+ year = {2010},
+ pages = {573-587},
+ }
+

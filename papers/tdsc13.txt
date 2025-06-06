@@ -1,0 +1,11 @@
+@article{wang13tdsc,
+author = {Wang, L. and Jajodia, S. and Singhal, A. and Cheng, P. and Noel, S.},
+title = {k-Zero day safety:  A network security metric for measuring the risk of unknown vulnerabilities},
+journal ={IEEE Transactions on Dependable and Secure Computing},
+volume = {11},
+number = {1},
+year = {2013},
+pages = {30-44},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+}

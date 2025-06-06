@@ -1,0 +1,9 @@
+@article{dayong10cii,
+author = {Da Yong Zhang, Yong Zeng, Lingyu Wang, Hongtao Li and Yuanfeng Geng},
+title = {Modeling and evaluating information leakage caused by inferences in supply chains},
+journal ={Computers in Industry},
+volume = {},
+number = {},
+year = {2010},
+publisher = {Elsevier}
+}

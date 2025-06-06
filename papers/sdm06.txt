@@ -1,0 +1,10 @@
+@inproceedings{yao06sdm,
+  author    = {Chao Yao and
+               Lingyu Wang and
+               Xiaoyang Sean Wang and
+               Sushil Jajodia},
+  title     = {Indistinguishability: The Other Aspect of Privacy},
+  booktitle = {3rd VLDB Workshop on Secure Data Management},
+  year      = {2006},
+  pages     = {1-17},
+}

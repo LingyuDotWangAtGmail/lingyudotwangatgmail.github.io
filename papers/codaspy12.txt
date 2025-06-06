@@ -1,0 +1,11 @@
+@inproceedings{liu12codaspy,
+ author = {Liu, Wen Ming and Wang, Lingyu},
+ title = {Privacy streamliner: a two-stage approach to improving algorithm efficiency},
+ booktitle = {Proceedings of the second ACM conference on Data and Application Security and Privacy},
+ series = {CODASPY '12},
+ year = {2012},
+ location = {San Antonio, Texas, USA},
+ pages = {193--204},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+} 

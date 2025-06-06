@@ -1,0 +1,13 @@
+@article{comcom06,
+ author = {Wang, Lingyu and Liu, Anyi and Jajodia, Sushil},
+ title = {Using attack graphs for correlating, hypothesizing, and predicting intrusion alerts},
+ journal = {Comput. Commun.},
+ volume = {29},
+ number = {15},
+ year = {2006},
+ issn = {0140-3664},
+ pages = {2917--2933},
+ publisher = {Butterworth-Heinemann},
+ address = {Newton, MA, USA},
+ }
+

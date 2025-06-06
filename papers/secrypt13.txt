@@ -1,0 +1,8 @@
+@inproceedings{albanese13secrypt,
+ author = {Albanese, M. and Jajodia, S. and Singhal, A. and Wang, L.},
+ title = {An Efficient Approach to Assessing the Risk of Zero-Day Vulnerabilities},
+ booktitle = {Proceedings of the 10th International Conference on Security and Cryptography ({SECRYPT} 2013)},
+ year = {2013},
+ pages = {}
+ }
+

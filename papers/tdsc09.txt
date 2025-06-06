@@ -1,0 +1,10 @@
+@article{mohammed09tdsc,
+author = {Noman Mohammed and Hadi Otrok and Lingyu Wang and Mourad Debbabi and Prabir Bhattacharya},
+title = {Mechanism Design-Based Secure Leader Election Model for Intrusion Detection in MANET},
+journal ={IEEE Transactions on Dependable and Secure Computing},
+volume = {99},
+number = {1},
+year = {2009},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+}

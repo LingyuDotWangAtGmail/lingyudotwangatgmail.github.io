@@ -1,0 +1,12 @@
+@inproceedings{zhang09sdm,
+ author = {Zhang, Lei and Wang, Lingyu and Jajodia, Sushil and Brodsky, Alexander},
+ title = {L-Cover: Preserving Diversity by Anonymity},
+ booktitle = {SDM '09: Proceedings of the 6th VLDB Workshop on Secure Data Management},
+ year = {2009},
+ isbn = {978-3-642-04218-8},
+ pages = {158--171},
+ location = {Lyon, France},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ }
+

@@ -1,0 +1,774 @@
+@inproceedings{Tabiban22,
+  author    = {Azadeh Tabiban, Heyang Zhao, Yosr Jarraya, Makan Pourzandi, Mengyuan Zhang, Lingyu Wang},
+  title     = {ProvTalk: Towards Interpretable Multi-level Provenance Analysis in Networking Function Virtualization (NFV)},
+  booktitle = {Network and Distributed System Security Symposium ({NDSS} 2022), San Diego, 27 February - 3 March, 2022},
+  pages     = {},
+  publisher = {},
+  year      = {2022}
+}
+@INPROCEEDINGS{9817488,  
+author={Duman, Onur and Wang, Lingyu and Au, Minh and Kassouf, Marthe and Debbabi, Mourad},  
+booktitle={2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT)},   
+title={Hardening Substations against Supply Chain Attacks Under Operational Constraints},   
+year={2022},  
+volume={},  
+number={},  
+pages={1-5}
+}
+@inproceedings{Kermabon-Bobinnec22,
+  author    = {Hugo Kermabon{-}Bobinnec and
+               Mahmood Gholipourchoubeh and
+               Sima Bagheri and
+               Suryadipta Majumdar and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang},
+  editor    = {Anupam Joshi and
+               Maribel Fern{\'{a}}ndez and
+               Rakesh M. Verma},
+  title     = {ProSPEC: Proactive Security Policy Enforcement for Containers},
+  booktitle = {{CODASPY} '22: Twelveth {ACM} Conference on Data and Application Security
+               and Privacy, Baltimore, MD, USA, April 24 - 27, 2022},
+  pages     = {155--166},
+  publisher = {{ACM}},
+  year      = {2022}
+}
+@inproceedings{AsadujjamanOJMP21,
+  author    = {A. S. M. Asadujjaman and
+               Momen Oqaily and
+               Yosr Jarraya and
+               Suryadipta Majumdar and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {Artificial Packet-Pair Dispersion {(APPD):} {A} Blackbox Approach
+               to Verifying the Integrity of {NFV} Service Chains},
+  booktitle = {{IEEE} Conference on Communications and Network Security, {CNS} 2021,
+               Tempe, AZ, USA, October 4-6, 2021},
+  pages     = {245--253},
+  publisher = {{IEEE}},
+  year      = {2021}
+}
+@inproceedings{OqailyTJMZP0D20,
+  author    = {Alaa Oqaily and
+               Sudershan L. T and
+               Yosr Jarraya and
+               Suryadipta Majumdar and
+               Mengyuan Zhang and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {NFVGuard: Verifying the Security of Multilevel Network Functions Virtualization
+               {(NFV)} Stack},
+  booktitle = {12th {IEEE} International Conference on Cloud Computing Technology
+               and Science, CloudCom 2020, Bangkok, Thailand, December 14-17, 2020},
+  pages     = {33--40},
+  publisher = {{IEEE}},
+  year      = {2020}
+}
+@inproceedings{MohammadyXHZ0PD20,
+  author    = {Meisam Mohammady and
+               Shangyu Xie and
+               Yuan Hong and
+               Mengyuan Zhang and
+               Lingyu Wang and
+               Makan Pourzandi and
+               Mourad Debbabi},
+  editor    = {Jay Ligatti and
+               Xinming Ou and
+               Jonathan Katz and
+               Giovanni Vigna},
+  title     = {{R2DP:} {A} Universal and Automated Approach to Optimizing the Randomization
+               Mechanisms of Differential Privacy for Utility Metrics with No Known
+               Optimal Distributions},
+  booktitle = {{CCS} '20: 2020 {ACM} {SIGSAC} Conference on Computer and Communications
+               Security, Virtual Event, USA, November 9-13, 2020},
+  pages     = {677--696},
+  publisher = {{ACM}},
+  year      = {2020}
+}
+@inproceedings{Alhebaishi0J20,
+  author    = {Nawaf Alhebaishi and
+               Lingyu Wang and
+               Sushil Jajodia},
+  editor    = {Anoop Singhal and
+               Jaideep Vaidya},
+  title     = {Modeling and Mitigating Security Threats in Network Functions Virtualization
+               {(NFV)}},
+  booktitle = {Data and Applications Security and Privacy {XXXIV} - 34th Annual {IFIP}
+               {WG} 11.3 Conference, DBSec 2020, Regensburg, Germany, June 25-26,
+               2020, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12122},
+  pages     = {3--23},
+  publisher = {Springer},
+  year      = {2020}
+}
+@inproceedings{TabibanJZP0D20,
+  author    = {Azadeh Tabiban and
+               Yosr Jarraya and
+               Mengyuan Zhang and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {Catching Falling Dominoes: Cloud Management-Level Provenance Analysis
+               with Application to OpenStack},
+  booktitle = {8th {IEEE} Conference on Communications and Network Security, {CNS}
+               2020, Avignon, France, June 29 - July 1, 2020},
+  pages     = {1--9},
+  publisher = {{IEEE}},
+  year      = {2020}
+}
+@inproceedings{Thirunavukkarasu19,
+  author    = {Sudershan Lakshmanan Thirunavukkarasu and
+               Mengyuan Zhang and
+               Alaa Oqaily and
+               Gagandeep Singh Chawla and
+               Lingyu Wang and
+               Makan Pourzandi and
+               Mourad Debbabi},
+  title     = {Modeling {NFV} Deployment to Identify the Cross-Level Inconsistency
+               Vulnerabilities},
+  booktitle = {2019 {IEEE} International Conference on Cloud Computing Technology
+               and Science (CloudCom), Sydney, Australia, December 11-13, 2019},
+  pages     = {167--174},
+  publisher = {{IEEE}},
+  year      = {2019}
+}
+@inproceedings{MajumdarTMOJP0D19,
+  author    = {Suryadipta Majumdar and
+               Azadeh Tabiban and
+               Meisam Mohammady and
+               Alaa Oqaily and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {Multi-Level Proactive Security Auditing for Clouds},
+  booktitle = {2019 {IEEE} Conference on Dependable and Secure Computing, {DSC} 2019,
+               Hangzhou, China, November 18-20, 2019},
+  pages     = {1--8},
+  publisher = {{IEEE}},
+  year      = {2019}
+}
+@inproceedings{DumanGKA0D19,
+  author    = {Onur Duman and
+               Mohsen Ghafouri and
+               Marthe Kassouf and
+               Ribal Atallah and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {Modeling Supply Chain Attacks in {IEC} 61850 Substations},
+  booktitle = {2019 {IEEE} International Conference on Communications, Control, and
+               Computing Technologies for Smart Grids, SmartGridComm 2019, Beijing,
+               China, October 21-23, 2019},
+  pages     = {1--6},
+  publisher = {{IEEE}},
+  year      = {2019}
+}
+@inproceedings{AlrabaeeK0D19,
+  author    = {Saed Alrabaee and
+               ElMouatez Billah Karbab and
+               Lingyu Wang and
+               Mourad Debbabi},
+  editor    = {Kazue Sako and
+               Steve A. Schneider and
+               Peter Y. A. Ryan},
+  title     = {BinEye: Towards Efficient Binary Authorship Characterization Using
+               Deep Learning},
+  booktitle = {Computer Security - {ESORICS} 2019 - 24th European Symposium on Research
+               in Computer Security, Luxembourg, September 23-27, 2019, Proceedings,
+               Part {II}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11736},
+  pages     = {47--67},
+  publisher = {Springer},
+  year      = {2019}
+}
+@inproceedings{MajumdarTMOJP0D19,
+  author    = {Suryadipta Majumdar and
+               Azadeh Tabiban and
+               Meisam Mohammady and
+               Alaa Oqaily and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  editor    = {Kazue Sako and
+               Steve A. Schneider and
+               Peter Y. A. Ryan},
+  title     = {Proactivizer: Transforming Existing Verification Tools into Efficient
+               Solutions for Runtime Security Enforcement},
+  booktitle = {Computer Security - {ESORICS} 2019 - 24th European Symposium on Research
+               in Computer Security, Luxembourg, September 23-27, 2019, Proceedings,
+               Part {II}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11736},
+  pages     = {239--262},
+  publisher = {Springer},
+  year      = {2019}
+}
+@inproceedings{OqailyJZ0PD19,
+  author    = {Momen Oqaily and
+               Yosr Jarraya and
+               Mengyuan Zhang and
+               Lingyu Wang and
+               Makan Pourzandi and
+               Mourad Debbabi},
+  editor    = {Kazue Sako and
+               Steve A. Schneider and
+               Peter Y. A. Ryan},
+  title     = {iCAT: An Interactive Customizable Anonymization Tool},
+  booktitle = {Computer Security - {ESORICS} 2019 - 24th European Symposium on Research
+               in Computer Security, Luxembourg, September 23-27, 2019, Proceedings,
+               Part {I}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11735},
+  pages     = {658--680},
+  publisher = {Springer},
+  year      = {2019}
+}
+@article{MohammadyOWHLPD21,
+  author    = {Meisam Mohammady and
+               Momen Oqaily and
+               Lingyu Wang and
+               Yuan Hong and
+               Habib Louafi and
+               Makan Pourzandi and
+               Mourad Debbabi},
+  title     = {A Multi-view Approach to Preserve Privacy and Utility in Network Trace
+               Anonymization},
+  journal   = {{ACM} Trans. Priv. Secur.},
+  volume    = {24},
+  number    = {3},
+  pages     = {14:1--14:36},
+  year      = {2021}
+}
+@article{QasemSDWLA21,
+  author    = {Abdullah Qasem and
+               Paria Shirani and
+               Mourad Debbabi and
+               Lingyu Wang and
+               Bernard Lebel and
+               Basile L. Agba},
+  title     = {Automatic Vulnerability Detection in Embedded Devices and Firmware:
+               Survey and Layered Taxonomies},
+  journal   = {{ACM} Comput. Surv.},
+  volume    = {54},
+  number    = {2},
+  pages     = {25:1--25:42},
+  year      = {2021}
+}
+@article{ChawlaZMJPWD21,
+  author    = {Gagandeep Singh Chawla and
+               Mengyuan Zhang and
+               Suryadipta Majumdar and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {VMGuard: State-Based Proactive Verification of Virtual Network Isolation
+               With Application to {NFV}},
+  journal   = {{IEEE} Trans. Dependable Secur. Comput.},
+  volume    = {18},
+  number    = {4},
+  pages     = {1553--1567},
+  year      = {2021}
+}
+@article{DumanZWDAL22,
+  author    = {Onur Duman and
+               Mengyuan Zhang and
+               Lingyu Wang and
+               Mourad Debbabi and
+               Ribal F. Atallah and
+               Bernard Lebel},
+  title     = {Factor of Security (FoS): Quantifying the Security Effectiveness of
+               Redundant Smart Grid Subsystems},
+  journal   = {{IEEE} Trans. Dependable Secur. Comput.},
+  volume    = {19},
+  number    = {2},
+  pages     = {1018--1035},
+  year      = {2022}
+}
+@article{AlrabaeeDW20,
+  author    = {Saed Alrabaee and
+               Mourad Debbabi and
+               Lingyu Wang},
+  title     = {{CPA:} Accurate Cross-Platform Binary Authorship Characterization
+               Using {LDA}},
+  journal   = {{IEEE} Trans. Inf. Forensics Secur.},
+  volume    = {15},
+  pages     = {3051--3066},
+  year      = {2020}
+}
+@article{OqailyJMMPWD21,
+  author    = {Momen Oqaily and
+               Yosr Jarraya and
+               Meisam Mohammady and
+               Suryadipta Majumdar and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {SegGuard: Segmentation-Based Anonymization of Network Data in Clouds
+               for Privacy-Preserving Security Auditing},
+  journal   = {{IEEE} Trans. Dependable Secur. Comput.},
+  volume    = {18},
+  number    = {5},
+  pages     = {2486--2505},
+  year      = {2021}
+}
+@article{AlrabaeeSWDH19,
+  author    = {Saed Alrabaee and
+               Paria Shirani and
+               Lingyu Wang and
+               Mourad Debbabi and
+               Aiman Hanna},
+  title     = {Decoupling coding habits from functionality for effective binary authorship
+               attribution},
+  journal   = {Journal of Computer Security},
+  volume    = {27},
+  number    = {6},
+  pages     = {613--648},
+  year      = {2019}
+}
+@inproceedings{ZhangXWJS19,
+  author    = {Mengyuan Zhang and
+               Yue Xin and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal},
+  title     = {CASFinder: Detecting Common Attack Surface},
+  booktitle = {Data and Applications Security and Privacy {XXXIII} - 33rd Annual
+               {IFIP} {WG} 11.3 Conference, DBSec 2019, Charleston, SC, USA, July
+               15-17, 2019, Proceedings},
+  pages     = {338--358},
+  year      = {2019}
+}
+@article{ZhangCWR19,
+  author    = {Mengyuan Zhang and
+               Xavier de Carn{\'{e}} de Carnavalet and
+               Lingyu Wang and
+               Ahmed Ragab},
+  title     = {Large-Scale Empirical Study of Important Features Indicative of Discovered
+               Vulnerabilities to Assess Application Security},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {14},
+  number    = {9},
+  pages     = {2315--2330},
+  year      = {2019}
+}
+@article{BorborWJS19,
+  author    = {Daniel Borbor and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal},
+  title     = {Optimizing the network diversity to improve the resilience of networks
+               against unknown attacks},
+  journal   = {Computer Communications},
+  volume    = {145},
+  pages     = {96--112},
+  year      = {2019}
+}
+@article{AlhebaishiWJS19,
+  author    = {Nawaf Alhebaishi and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal},
+  title     = {Mitigating the insider threat of remote administrators in clouds through
+               maintenance task assignments},
+  journal   = {Journal of Computer Security},
+  volume    = {27},
+  number    = {4},
+  pages     = {427--458},
+  year      = {2019}
+}
+@article{AlrabaeeDW19,
+  author    = {Saed Alrabaee and
+               Mourad Debbabi and
+               Lingyu Wang},
+  title     = {On the feasibility of binary authorship characterization},
+  journal   = {Digital Investigation},
+  volume    = {28},
+  number    = {Supplement},
+  pages     = {S3--S11},
+  year      = {2019}
+}
+@ARTICLE{10.4108/eai.8-4-2019.157413,
+    author={Mina Khalili and Mengyuan Zhang and Daniel Borbor and Lingyu Wang and Nicandro Scarabeo and Michel-Ange Zamor},
+    title={Monitoring and Improving Managed Security Services inside a Security Operation Center},
+    journal={EAI Endorsed Transactions on Security and Safety},
+    volume={5},
+    number={18},
+    publisher={EAI},
+    journal_a={SESA},
+    year={2019},
+    month={1},
+    keywords={Managed Security Services, Network Security Monitoring, Security Operation Center, Performance Metrics, Service Level Agreement, SLA, SOC, MSS, NSM, Security analysts},
+    doi={10.4108/eai.8-4-2019.157413}
+}
+@inproceedings{Majumdar18fps,
+  author    = {Suryadipta Majumdar and Taous Madi and Yosr Jarrayay and Makan Pourzandi and Lingyu Wang and Mourad Debbabi},
+  title     = {Cloud Security Auditing: Major Approaches and Existing Challenges},
+  booktitle = {The 11th International Symposium on Foundations & Practice of Security ({FPS} 2018)},
+  pages     = {},
+  year      = {2018}
+}
+@inproceedings{TabibanM0D18,
+  author    = {Azadeh Tabiban and
+               Suryadipta Majumdar and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {{PERMON:} An OpenStack Middleware for Runtime Security Policy Enforcement
+               in Clouds},
+  booktitle = {The 4th IEEE Workshop on Security and Privacy in the Cloud, {SPC}, 
+               2018, Beijing, China, May 30 - June 1, 2018},
+  pages     = {1--7},
+  year      = {2018}
+}
+@inproceedings{MajumdarMWJPWD15,
+  author    = {Suryadipta Majumdar and
+               Taous Madi and
+               Yushun Wang and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {Security Compliance Auditing of Identity and Access Management in
+               the Cloud: Application to OpenStack},
+  booktitle = {7th {IEEE} International Conference on Cloud Computing Technology
+               and Science, CloudCom 2015, Vancouver, BC, Canada, November 30 - December
+               3, 2015},
+  pages     = {58--65},
+  year      = {2015}
+}
+@inproceedings{AlrabaeeSDW16,
+  author    = {Saed Alrabaee and
+               Paria Shirani and
+               Mourad Debbabi and
+               Lingyu Wang},
+  title     = {On the Feasibility of Malware Authorship Attribution},
+  booktitle = {Foundations and Practice of Security - 9th International Symposium,
+               {FPS} 2016, Qu{\'{e}}bec City, QC, Canada, October 24-25, 2016,
+               Revised Selected Papers},
+  pages     = {256--272},
+  year      = {2016}
+}
+@inproceedings{Emirkanian-Bouchard16,
+  author    = {Mickael Emirkanian{-}Bouchard and
+               Lingyu Wang},
+  title     = {Towards Metric-Driven, Application-Specific Visualization of Attack
+               Graphs},
+  booktitle = {Foundations and Practice of Security - 9th International Symposium,
+               {FPS} 2016, Qu{\'{e}}bec City, QC, Canada, October 24-25, 2016,
+               Revised Selected Papers},
+  pages     = {117--134},
+  year      = {2016}
+}
+@inproceedings{AlhebaishiWJS16,
+  author    = {Nawaf Alhebaishi and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal},
+  title     = {Threat Modeling for Cloud Data Center Infrastructures},
+  booktitle = {Foundations and Practice of Security - 9th International Symposium,
+               {FPS} 2016, Qu{\'{e}}bec City, QC, Canada, October 24-25, 2016,
+               Revised Selected Papers},
+  pages     = {302--319},
+  year      = {2016}
+}
+@inproceedings{MadiMWJPW16,
+  author    = {Taous Madi and
+               Suryadipta Majumdar and
+               Yushun Wang and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang},
+  title     = {Auditing Security Compliance of the Virtualized Infrastructure in
+               the Cloud: Application to OpenStack},
+  booktitle = {Proceedings of the Sixth {ACM} on Conference on Data and Application
+               Security and Privacy, {CODASPY} 2016, New Orleans, LA, USA, March
+               9-11, 2016},
+  pages     = {195--206},
+  year      = {2016}
+}
+@inproceedings{BorborWJS16,
+  author    = {Daniel Borbor and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal},
+  title     = {Diversifying Network Services Under Cost Constraints for Better Resilience
+               Against Unknown Attacks},
+  booktitle = {Data and Applications Security and Privacy {XXX} - 30th Annual {IFIP}
+               {WG} 11.3 Conference, DBSec 2016, Trento, Italy, July 18-20, 2016.
+               Proceedings},
+  pages     = {295--312},
+  year      = {2016}
+}
+@inproceedings{MajumdarJMAPWD16,
+  author    = {Suryadipta Majumdar and
+               Yosr Jarraya and
+               Taous Madi and
+               Amir Alimohammadifar and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {Proactive Verification of Security Compliance for Clouds Through Pre-computation:
+               Application to OpenStack},
+  booktitle = {Computer Security - {ESORICS} 2016 - 21st European Symposium on Research
+               in Computer Security, Heraklion, Greece, September 26-30, 2016, Proceedings,
+               Part {I}},
+  pages     = {47--66},
+  year      = {2016}
+}
+@inproceedings{WangMMJAP0D17,
+  author    = {Yushun Wang and
+               Taous Madi and
+               Suryadipta Majumdar and
+               Yosr Jarraya and
+               Amir Alimohammadifar and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {TenantGuard: Scalable Runtime Verification of Cloud-Wide VM-Level
+               Network Isolation},
+  booktitle = {24th Annual Network and Distributed System Security Symposium, {NDSS}
+               2017, San Diego, California, USA, February 26 - March 1, 2017},
+  year      = {2017}
+}
+@inproceedings{BorborWJS16,
+  author    = {Daniel Borbor and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal},
+  title     = {Diversifying Network Services Under Cost Constraints for Better Resilience
+               Against Unknown Attacks},
+  booktitle = {Data and Applications Security and Privacy {XXX} - 30th Annual {IFIP}
+               {WG} 11.3 Conference, DBSec 2016, Trento, Italy, July 18-20, 2016.
+               Proceedings},
+  pages     = {295--312},
+  year      = {2016}
+}
+@inproceedings{Alimohammadifar18,
+  author    = {Amir Alimohammadifar and
+               Suryadipta Majumdar and
+               Taous Madi and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {Stealthy Probing-Based Verification {(SPV):} An Active Approach to
+               Defending Software Defined Networks Against Topology Poisoning Attacks},
+  booktitle = {Computer Security - 23rd European Symposium on Research in Computer
+               Security, {ESORICS} 2018, Barcelona, Spain, September 3-7, 2018, Proceedings,
+               Part {II}},
+  pages     = {463--484},
+  year      = {2018}
+}
+@inproceedings{AlrabaeeS0DH18,
+  author    = {Saed Alrabaee and
+               Paria Shirani and
+               Lingyu Wang and
+               Mourad Debbabi and
+               Aiman Hanna},
+  title     = {On Leveraging Coding Habits for Effective Binary Authorship Attribution},
+  booktitle = {Computer Security - 23rd European Symposium on Research in Computer
+               Security, {ESORICS} 2018, Barcelona, Spain, September 3-7, 2018, Proceedings,
+               Part {I}},
+  pages     = {26--47},
+  year      = {2018}
+
+}
+@inproceedings{ShiraniCALD0H18,
+  author    = {Paria Shirani and
+               Leo Collard and
+               Basile L. Agba and
+               Bernard Lebel and
+               Mourad Debbabi and
+               Lingyu Wang and
+               Aiman Hanna},
+  title     = {{BINARM:} Scalable and Efficient Detection of Vulnerabilities in Firmware
+               Images of Intelligent Electronic Devices},
+  booktitle = {Detection of Intrusions and Malware, and Vulnerability Assessment
+               - 15th International Conference, {DIMVA} 2018, Saclay, France, June
+               28-29, 2018, Proceedings},
+  pages     = {114--138},
+  year      = {2018}
+}
+@inproceedings{Alhebaishi0JS18,
+  author    = {Nawaf Alhebaishi and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal},
+  title     = {Modeling and Mitigating the Insider Threat of Remote Administrators
+               in Clouds},
+  booktitle = {Data and Applications Security and Privacy {XXXII} - 32nd Annual {IFIP}
+               {WG} 11.3 Conference, DBSec 2018, Bergamo, Italy, July 16-18, 2018,
+               Proceedings},
+  pages     = {3--20},
+  year      = {2018}
+}
+@inproceedings{Mohammady0HLPD18,
+  author    = {Meisam Mohammady and
+               Lingyu Wang and
+               Yuan Hong and
+               Habib Louafi and
+               Makan Pourzandi and
+               Mourad Debbabi},
+  title     = {Preserving Both Privacy and Utility in Network Trace Anonymization},
+  booktitle = {Proceedings of the 2018 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security, {CCS} 2018, Toronto, ON, Canada, October
+               15-19, 2018},
+  pages     = {459--474},
+  year      = {2018}  
+}
+@inproceedings{MadiZJAP0D18,
+  author    = {Taous Madi and
+               Mengyuan Zhang and
+               Yosr Jarraya and
+               Amir Alimohammadifar and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {QuantiC: Distance Metrics for Evaluating Multi-Tenancy Threats in
+               Public Cloud},
+  booktitle = {2018 {IEEE} International Conference on Cloud Computing Technology
+               and Science, CloudCom 2018, Nicosia, Cyprus, December 10-13, 2018},
+  pages     = {163--170},
+  year      = {2018} 
+}
+@ARTICLE{10.4108/eai.11-12-2018.156032,
+    author={Wenyu Qu and Wei Huo and Lingyu Wang},
+    title={Opportunistic Diversity-Based Detection of Injection Attacks in Web Applications},
+    journal={EAI Endorsed Transactions on Security and Safety},
+    volume={5},
+    number={16},
+    publisher={EAI},
+    journal_a={SESA},
+    year={2018},
+    month={12}
+}
+@ARTICLE{10.4108/eai.10-1-2019.156246,
+    author={Nawaf Alhebaishi and Lingyu Wang and Anoop Singhal},
+    title={Threat Modeling for Cloud Infrastructures},
+    journal={EAI Endorsed Transactions on Security and Safety},
+    volume={5},
+    number={17},
+    publisher={EAI},
+    journal_a={SESA},
+    year={2018},
+    month={12}
+}
+@article{majumdar19jcs,
+  title={Learning probabilistic dependencies among events for proactive security auditing in clouds},
+  author={Majumdar, Suryadipta and Tabiban, Azadeh and Jarraya, Yosr and Oqaily, Momen and Alimohammadifar, Amir and Pourzandi, Makan and Wang, Lingyu and Debbabi, Mourad},
+  journal={Journal of Computer Security},
+  number={Preprint},
+  pages={1--38},
+  publisher={IOS Press}
+}
+@article{madi2018isotop,
+  title={ISOTOP: Auditing Virtual Networks Isolation Across Cloud Layers in OpenStack},
+  author={Madi, Taous and Jarraya, Yosr and Alimohammadifar, Amir and Majumdar, Suryadipta and Wang, Yushun and Pourzandi, Makan and Wang, Lingyu and Debbabi, Mourad},
+  journal={ACM Transactions on Privacy and Security (TOPS)},
+  volume={22},
+  number={1},
+  pages={1},
+  year={2018},
+  publisher={ACM}
+}
+@article{Borbor2018SurvivingUV,
+  title={Surviving unpatchable vulnerabilities through heterogeneous network hardening options},
+  author={Daniel Borbor and Lingyu Wang and Sushil Jajodia and Anoop Singhal},
+  journal={Journal of Computer Security},
+  year={2018},
+  volume={26},
+  pages={761-789}
+}
+@article{Alrabaee:2018:FRE:3175499.3175492,
+ author = {Alrabaee, Saed and Shirani, Paria and Wang, Lingyu and Debbabi, Mourad},
+ title = {FOSSIL: A Resilient and Efficient System for Identifying FOSS Functions in Malware Binaries},
+ journal = {ACM Trans. Priv. Secur.},
+ volume = {21},
+ number = {2},
+ month = jan,
+ year = {2018},
+ issn = {2471-2566},
+ pages = {8:1--8:34},
+ publisher = {ACM}
+}
+@article{MajumdarMWJPWD18,
+  author    = {Suryadipta Majumdar and
+               Taous Madi and
+               Yushun Wang and
+               Yosr Jarraya and
+               Makan Pourzandi and
+               Lingyu Wang and
+               Mourad Debbabi},
+  title     = {User-Level Runtime Security Auditing for the Cloud},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {13},
+  number    = {5},
+  pages     = {1185--1199},
+  year      = {2018}
+}
+@article{HongLW17,
+  author    = {Yuan Hong and
+               Wen Ming Liu and
+               Lingyu Wang},
+  title     = {Privacy Preserving Smart Meter Streaming Against Information Leakage
+               of Appliance Status},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {12},
+  number    = {9},
+  pages     = {2227--2241},
+  year      = {2017}
+}
+@article{article,
+author = {Alrabaee, Saed and Wang, Lingyu and Debbabi, Mourad},
+year = {2016},
+month = {08},
+pages = {S11-S22},
+title = {BinGold: Towards robust binary analysis by extracting the semantics of binary code as semantic flow graphs (SFGs)},
+volume = {18},
+journal = {Digital Investigation}
+}
+@article{ZhangWJSA16,
+  author    = {Mengyuan Zhang and
+               Lingyu Wang and
+               Sushil Jajodia and
+               Anoop Singhal and
+               Massimiliano Albanese},
+  title     = {Network Diversity: {A} Security Metric for Evaluating the Resilience
+               of Networks Against Zero-Day Attacks},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {11},
+  number    = {5},
+  pages     = {1071--1086},
+  year      = {2016}
+}
+@article{MouhebANDWP16,
+  author    = {Djedjiga Mouheb and
+               Dima Alhadidi and
+               Mariam Nouh and
+               Mourad Debbabi and
+               Lingyu Wang and
+               Makan Pourzandi},
+  title     = {Aspect-oriented modeling framework for security hardening},
+  journal   = {{ISSE}},
+  volume    = {12},
+  number    = {1},
+  pages     = {41--67},
+  year      = {2016}
+}
+@article{Rahimian2015,
+ author = {Rahimian, Ashkan and Shirani, Paria and Alrbaee, Saed and Wang, Lingyu and Debbabi, Mourad},
+ title = {BinComp},
+ journal = {Digit. Investig.},
+ issue_date = {August 2015},
+ volume = {14},
+ number = {S1},
+ month = aug,
+ year = {2015},
+ issn = {1742-2876},
+ pages = {S146--S155}
+ } 

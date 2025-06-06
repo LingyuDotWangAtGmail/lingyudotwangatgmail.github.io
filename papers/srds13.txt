@@ -1,0 +1,8 @@
+@inproceedings{william13srds,
+ author = {Nzoukou, W. and Wang, L. and Jajodia1, S. and Singhal, A.},
+ title = {A Unified Framework for Measuring a Network's Mean Time-to-Compromise},
+ booktitle = {Proceedings of the 32nd IEEE International Symposium on Reliable Distributed Systems ({SRDS} 2013)},
+ year = {2013},
+ pages = {}
+ }
+

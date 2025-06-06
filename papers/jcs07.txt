@@ -1,0 +1,13 @@
+@article{jcs07,
+ author = {Wang, Lingyu and Li, Yingjiu and Jajodia, Sushil and Wijesekera, Duminda},
+ title = {Parity-based inference control for multi-dimensional range sum queries},
+ journal = {J. Comput. Secur.},
+ volume = {15},
+ number = {4},
+ year = {2007},
+ issn = {0926-227X},
+ pages = {417--445},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+

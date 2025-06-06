@@ -1,0 +1,12 @@
+@inproceedings{frigault08qop,
+ author = {Frigault, Marcel and Wang, Lingyu and Singhal, Anoop and Jajodia, Sushil},
+ title = {Measuring network security using dynamic bayesian network},
+ booktitle = {QoP '08: Proceedings of the 4th ACM workshop on Quality of protection},
+ year = {2008},
+ isbn = {978-1-60558-321-1},
+ pages = {23--30},
+ location = {Alexandria, Virginia, USA},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+

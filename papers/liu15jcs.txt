@@ -1,0 +1,13 @@
+@article{liu15jcs,
+ author = {Liu, Wen Ming and Wang, Lingyu and Zhang, Lei and Zhu, Shunzhi},
+ title = {k-Jump: a Strategy to Design Publicly-Known Algorithms for
+Privacy Preserving Micro-Data Disclosure},
+ journal = {J. Comput. Secur.},
+ volume = {23},
+ number = {2},
+ year = {2015},
+ pages = {131--165},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+

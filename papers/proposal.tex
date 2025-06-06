@@ -1,0 +1,863 @@
+\documentclass[12pt]{article}
+\usepackage{bibspacing}
+\setlength{\bibspacing}{\baselineskip}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{epsfig}
+\setlength{\textheight}{9.25in}
+\setlength{\textwidth}{6.75in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\headheight}{0.2in}
+\setlength{\headsep}{0.2in}
+\setlength{\oddsidemargin}{-0.0in}
+%\setlength{\parindent}{1pc}
+%\setlength{\parskip}{0.3pc}
+\def\baselinestretch{1}
+\usepackage{wrapfig}
+%\newcounter{example}
+%\newcounter{method}[section]
+%\newcounter{lemma}[section]
+%\newcounter{theorem}
+%\newtheorem{example}{Example}[section]
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{definition}{Definition}
+%\newtheorem{algorithm}{Algorithm}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{method}{Method}
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{proposition}{Proposition}
+%\setcounter{page}{9}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain} 
+\lhead{Form 101}
+\rhead{}
+%\rhead{Wang, Lingyu (PIN: 315979)}
+\renewcommand{\headrulewidth}{0pt}
+
+
+
+
+
+
+ 
+\begin{document}
+\begin{center}
+{\Huge Audit Ready Cloud}
+\end{center}
+
+\thispagestyle{empty}
+%\pagestyle{empty}
+
+
+%\vspace{8mm}
+
+%% \title{Audit Ready Cloud}
+%% \author{}
+%% \date{}
+%% \maketitle
+
+
+
+
+\section{Synopsis}
+\label{sec:syn}
+\vspace{-3mm} 
+%Synopsis: Provide a concise overview of the scientific or technical
+%objectives, approach, and the new knowledge, expertise, or technology
+%that could be transferred to Canadian industry. Indicate the benefits
+%expected to accrue to Canadian industry, to the academic institution,
+%and to the scientific or engineering discipline.
+
+The primary objective of the proposed research is to develop a
+comprehensive solution for automating the security monitoring,
+auditing, and compliance verification processes inside a cloud. The
+new knowledge and technologies that would be transferred to Canadian
+industry through this project include a framework for automating
+compliance verification and auditing in cloud, methods for collecting
+and processing data, languages and algorithms for formally verifying
+security properties, and novel approaches for detecting violation of
+security requirements. The key benefits expected to accrue to both the
+industry and academia include the desirable capability of
+automatically providing evidences of security compliance to cloud
+tenants to ease their security concerns as this is necessary for
+providing proof to cloud tenants of secure deployment of
+applications in the cloud, a research prototype that can be integrated
+with existing cloud management systems, such as the Ericsson Cloud
+Manager, as a value-added feature, and finally the training of HQP for
+an emerging industry which increasingly demands highly specialized
+expertise.
+
+\vspace{-5mm} 
+\section{Background}
+\label{sec:bac}
+\vspace{-3mm} 
+
+%% Background: Relate the proposal to current scientific, technical
+%% and commercial developments in the field, referring to the current
+%% literature and market conditions. Describe the background research
+%% on which the project is built.
+
+Cloud computing is emerging as a promising IT solution for enabling
+ubiquitous, convenient, and on-demand accesses to a shared pool of
+configurable computing resources. With various benefits, including
+lower cost, greater agility, and better resource utilization, this new
+paradigm has spurred a lot of interests and adoption. However, despite
+the obvious benefits, widespread adoption of cloud is still being
+hindered by security and privacy concerns. For example, it was shown
+that 42\% of organizations were citing security as their primary
+reason for not moving to the cloud, up from only 25\% two years ago,
+in a recent study on the adoption of
+cloud~\cite{bitglass}. Individuals and organizations become hesitant
+about moving their valuable data and applications to cloud due to
+uncertainties in security, especially the accountability and
+auditability, of data and services hosted in the cloud~\cite{ko}.
+
+Various cloud security and privacy issues have been addressed in the
+literature~\cite{ryan2013cloud,subashini2011survey}. However, the mere
+existence of such security mechanisms is usually insufficient to fully
+relieve cloud tenants from their security and privacy concerns. In
+order to guarantee the cloud tenants that their desired security
+policies are respected in the cloud, there is need for a clear
+evidence of effectiveness of such security mechanisms. Furthermore,
+those security policies need to be maintained as the cloud
+infrastructure goes under changes at run time according to service
+providers' needs or tenants' requests.  To increase tenants' trust in
+cloud, it is of paramount importance to provide adequate auditing
+mechanisms and tools for the tenants to verify at any time that the
+security postures of their applications actually comply with their
+pre-defined security policies. Such a capability is, and will be more
+in the future, a strategic factor for Canada's cloud industry's
+overall competitiveness.
+
+
+Auditing and compliance verification in cloud pose many unique
+challenges. First, virtualization has rendered cloud a highly dynamic
+environment which may cause traditional auditing and verification
+approaches to fall out of sync with the constantly changing cloud
+security posture~\cite{Doelitzscher}. Second, the heterogeneity of
+cloud infrastructures requires the auditing process to extract
+potentially redundant, inconsistent, or incompatible inputs from
+various cloud components, including many cloud-specific types of
+information, such as the knowledge of the underlying business
+processes~\cite{Doelitzscher} and the tenant logic potentially with
+complex stakeholder relationships~\cite{TaheriMonfared}. Third, the
+self-provisioning, elasticity and dynamic nature of a cloud makes it
+possible for the tenants to create their own virtual networks and make
+changes to the cloud infrastructure by affecting different resources,
+such as networking, computing and storage, at run time through
+programmable approaches. This fact, together with the sheer scale of
+cloud infrastructures (e.g., today's data centers can easily have
+thousands of virtual and physical networking, computing, and storage
+elements, which may generate a huge amount of logging information in
+short periods of time), makes fully automated auditing and
+verification tools a necessity.
+
+
+In this project, we aim at addressing above challenges through
+elaborating a set of reliable and scalable mechanisms and techniques
+for automatically monitoring, auditing, and verifying the security
+posture and compliance of a cloud. The project will be built upon the
+applicants' previous research experiences in related domains,
+including cloud computing security and privacy, formal verification
+and validation of security policies, and network security monitoring
+and detection (refer to references in the applicants' Form 100 for
+more details).
+
+\vspace{-3mm}
+
+\section{Detailed Proposal}
+\label{sec:det}
+\vspace{-3mm}
+%% Discuss the scientific issues, research problems or technical complexities, and describe the research methodology and experimental design proposed to explain or resolve them. Provide a work plan and relate it to the milestone schedule from the ACTIVITY SCHEDULE section. Describe the roles of any undergraduate or graduate students, or postdoctoral fellows who will be involved in the project. If applicable, clearly justify the need for any additional support staff such as research assistants, technicians or other professional staff who may be required to carry out the project.
+
+This section details our main objectives, the state of the art,
+research problems and methodologies, the work plan, and
+the roles of graduate students and postdoctoral fellows involved in
+the project.
+
+\vspace{-3mm}
+\subsection{Objectives}
+\vspace{-2mm}
+
+The primary objectives of the proposed project are the following.
+
+\vspace{-3mm}
+\begin{itemize}
+\addtolength{\itemsep}{-0.5\baselineskip}
+
+\item Develop a distributed and scalable framework for collecting,
+  aggregating, fusing, and processing necessary input information for
+  both auditing and compliance verification.
+
+\item Design a compliance verification framework for automatically
+  verifying security postures of tenants' applications against
+  pre-specified security properties. For this purpose, two candidate
+  solutions will be investigated, namely, a SAT-based bounded modeling
+  checking approach and a custom runtime verification approach.
+
+\item Devise a hybrid auditing approach to detecting potential
+  violations of security policies from live traffic with acceptable
+  overhead.
+
+\item Implement a practical research prototype that integrates the
+  aforementioned frameworks and approaches and, hence, conduct
+  real-life case studies to evaluate and validate the research
+  results.
+\end{itemize}
+
+\vspace{-8mm}
+\subsection{State of the Art}
+\vspace{-2mm}
+\label{sec:state}
+
+Existing techniques on compliance verification and auditing in cloud
+can be roughly classified based on the targeted abstraction layers,
+the adopted verification or auditing approaches, and the verified or
+audited properties. More and more cloud data centers are adopting the
+Software Defined Networking (SDN) paradigm which exhibits three main
+functional layers: The infrastructure layer that is constituted of the
+forwarding elements, the control layer that consists of software-based
+controllers, and finally the application layer that refers to the
+end-user business applications. Existing work targeting the
+infrastructure layer, such as those
+in~\cite{Al-Shaer:2010:FCA:1866898.1866905,McGeer:2012:SEU:2342441.2342454,Mai:2011:DDP:2043164.2018470},
+are mainly concerned with the consistency of rule updates, the
+intra-switch inconsistencies within a single FlowTable, and
+inter-switch inconsistencies across the same or different OpenFlow
+infrastructures.  Moreover, SDN allows frequent modifications to the
+network configuration through interactions between the three
+layers. These interactions will generate frequent events that are
+likely to introduce inconsistencies leading to network failures to
+meet the security requirements. Particularly, dynamic application
+insertions of forwarding policies could be at the origin of conflicts
+that may occur at the infrastructure layer.  To consider these
+interactions, VeriFlow \cite{Khurshid:2012:VVN:2342441.2342452} and
+NetPlumber \cite{Kazemian:2013:RTN:2482626.2482638} tackle both the
+infrastructure and the control layer and propose to check network
+configuration and flow tables changes at runtime against network-wide
+invariants. For the sake of dealing with the interactions between the
+application and control layers, FortNox
+\cite{Porras:2012:SEK:2342441.2342466}, FLOVER~\cite{FLOVERICC13} and
+the authors in \cite{Wang2013} deal with run-time compliance
+verification of the newly inserted application rules and existing flow
+rulesets against a subset of pre-defined security policies.  Kinetic
+\cite{Reitblatt:2011:CUS:2070562.2070569} is the only work that
+tackles all three layers at the same time. It proposes abstractions
+for network updates with strong semantic guarantees. These are
+implementable as abstract update operations that ensure per-packet and
+per-flow consistencies when updating a policy across multiple
+switches.
+
+The existing techniques used for the verification of network
+configurations have been roughly classified by Chakraborty and Mukund
+\cite{Chakraborty2012} into two main classes: state-machine based
+(FSM) and Boolean satisfiability based (SAT). The authors argue that
+both verification techniques are quite similar, as increasing the
+complexity of the system may push to the limits the representation
+used for the network state (BDD, SAT, DNF, etc). Nevertheless, for the
+SAT technique, the property formula is unlikely to affect scalability
+as it is relatively small compared to the network formula, which makes
+it more appropriate for the verification of medium to large sized
+networks. FSM-based approaches have been adopted in
+\cite{Al-Shaer:2010:FCA:1866898.1866905,Kazemian:2013:RTN:2482626.2482638,Wang2013}
+while in
+\cite{McGeer:2012:SEU:2342441.2342454,Mai:2011:DDP:2043164.2018470,FLOVERICC13}
+SAT-based methodologies have been used. Kinetic
+\cite{Reitblatt:2011:CUS:2070562.2070569} which tackles the three SDN
+layers is based on a FSM-based model checking approach. Other work
+such as Fortnox\cite{Porras:2012:SEK:2342441.2342466} and NetPlumber
+\cite{Kazemian:2013:RTN:2482626.2482638} propose custom algorithms for
+the verification. If well devised, such algorithms can be of great
+efficiency as they are assumed to be tailored to fit to specific
+network characteristics and properties to be verified.
+
+From the verified properties point of view, consistency, isolation,
+reachability, forwarding loops and security policies are the main
+verified properties. Nevertheless, only a subset of these properties
+is studied in each existing work. For example, only isolation,
+reachability and forwarding loops are covered by Veriflow. Moreover,
+for each property, only a subset of problems has been addressed by
+individual work based on the targeted SDN-layer. For instance,
+FlowChecker addresses the problem of inconsistency between flow rules
+at the infrastructure layer only, ignoring consistency problems that
+may arise at higher layers of the architecture. Security policies have
+been only partially addressed by individual work as well. For example,
+blacklisting has been handled by Kinetic; non-bypass properties have
+been tackled by FLOVER; applications authorization has been addressed
+by FortNox. As such, to the best of our knowledge, no existing work
+can exhaustively verify all the mentioned properties while considering
+the different layers of SDN-based cloud architectures. Furthermore,
+most of the relevant work \cite{Al-Shaer:2010:FCA:1866898.1866905,
+  Khurshid:2012:VVN:2342441.2342452, McGeer:2012:SEU:2342441.2342454,
+  Reitblatt:2011:CUS:2070562.2070569} are static and do not take into
+account the dynamic nature of a cloud. In addition, none of the
+existing work has investigated a runtime verification approach, which
+can be used to prevent non-compliant changes.
+
+
+Existing techniques for detecting security violations in cloud can be
+classified into two main categories, anomaly detection and misuse
+detection~\cite{Modi201342,5380611,6158820}. The former identifies
+suspicious events based on any significant deviation from  normal
+behaviors, capable of detecting unknown violations but with a
+detection accuracy highly dependent on the collected features. The
+latter captures known violations based on a pre-configured set of
+signatures (rules), with the advantage of a higher detection accuracy
+for previously known violations but ineffective to detect unknown or
+variants of known violations. For both techniques, many approaches
+have been proposed to deal with uncertain data, incomplete data,
+and/or high-noise-rate data, including genetic algorithms and machine
+learning algorithms, such as, ANN (artificial neural network) based,
+fuzzy logic based, association rule based, SVM (support vector
+machine) based, GA (genetic algorithm) based,
+etc~\cite{IDAS,Kabiri05researchon}. However, each approach has its own
+limitations. For instance, rule-based detection needs more rounds of
+signature database scans to generate and update rules. Consequently,
+these techniques are suitable for different auditing
+scenarios. Practically, they have usually been combined together to
+detect violations at different layers and scenarios. In particular,
+violation detection is shown to be much more complicated in cloud due
+to its intrinsic characteristics, such as, the blurred boundary
+between internal and external elements and frequent changes in normal
+behaviors, etc.~\cite{Xu:2011:AMI:2603384.2603385}. Recently,
+SDN-based techniques for detecting or mitigating specific types of
+policy violations in cloud have been proposed. Entropy-based anomaly
+detection~\cite{Giotis2014122} takes four flow-related traffic feature
+distributions (source/destination IP address/port) into account and
+focuses on three common type of anomalies (DDoS, worm propagation and
+portscan). Lightweight flow-based detection~\cite{5735752} detects
+DDoS attacks by classifying network traffic based on statistical
+information extracted through SDN-controller.
+AVANT-GUARD~\cite{Shin:2013:ASV:2508859.2516684} mitigates TCP SYN
+flooding attack by migrating the connection in SDN date plane. More
+recently, a study demonstrates the feasibility of achieving packet
+inspection on SDN controller itself, which can dramatically reduce the
+overhead~\cite{hommes-thesis}.
+
+While the aforementioned techniques can be effective in auditing
+generic forms of attacks or misbehaviors, it is also important to
+consider auditing real-time behaviors and traffic of a cloud against a
+given set of specific security properties (e.g., consistency,
+isolation, reachability, forwarding loops and other security policies,
+which we have mentioned before). Few existing work aim at auditing
+such violations of specific security properties or policies based on
+real-time traffic or SDN-related traffic statistics. White papers from
+standards organizations, governments, and industries typically
+emphasize on what to detect rather than how to detect~\cite{DenmarkWP,
+  CSCCWP, singaporeWP}. Existing research is usually limited to
+certain aspects or components only. For instance,
+SilverLine~\cite{Mundada:2011:SDN:2170444.2170457} implements data
+isolation and network isolation through IP address obfuscation and
+network round trip times (RTTs) normalization in OpenFlow/NOX XEN
+platform, but this cannot be directly applied to other platforms and
+does not provide verification and detection for the
+isolation. Kazemian \emph{et. al} build a real-time policy checking
+system to detect security policies compliance, such as, reachability,
+isolation, access control and path length
+constraint~\cite{Kazemian:2013:RTN:2482626.2482638}. It detects the
+forwarding state (updated due to operations and events) against some
+given security policies, which is different from our goal of auditing
+real-time traffic. To the best of our knowledge, auditing real-time
+traffic for detecting violations of security policies, which will
+allow a public cloud to outperform other alternatives, remains
+an open problem.
+
+
+
+
+
+
+%Verified properties include reachability, forwarding loops, destination control (blacklisting/waypointing) and slice isolation.
+
+%Frequent interactions between the controller and the infrastructure layer are not considered. the applied security is not checked against the security requirements 
+
+%Infrastructure: Flowchecker\cite{Al-Shaer:2010:FCA:1866898.1866905},\cite{McGeer:2012:SEU:2342441.2342454}, Anteater \cite{Mai:2011:DDP:2043164.2018470},
+
+
+
+
+\vspace{-3mm}
+%\pagebreak
+\subsection{Methodology}
+\label{sec:research}
+\vspace{-2mm} 
+
+To reach the stated objectives, we will follow five lines of research
+as detailed below (we list them sequentially for clarity purpose,
+although they are rather intertwined in nature).
+
+
+\vspace{-3mm}
+\subsubsection{Distributed and Scalable Framework for Data Collection and Processing}
+\label{subsec:5.1}
+\vspace{-2mm}
+
+This first line of research aims at developing a distributed and
+scalable framework to collect, aggregate, fuse, and process various
+input information required for both auditing and compliance
+verification. As mentioned above, most existing work on security
+policy violation detection and compliance verification can only deal
+with a limited number of basic security properties or policies. The
+main research challenge is thus to develop a generic and efficient
+framework for collecting and processing all relevant configuration and
+traffic data from various sources in a cloud. Different cloud
+components (e.g., hosts, physical/virtual networks, security devices,
+data centers, OpenStack, SDN, hypervisor, etc.)  possess different
+portions of security-related data, usually in different forms (log
+files, configuration files, SDN flow tables, network traffic,
+etc.). Such data may be obtained through various mechanisms (OpenFlow,
+netFlow, sFlow, Rflow, SNMP, RMON, customized agents, etc.). Data from
+different resources may be redundant, inconsistent, or in different
+formats, which renders their aggregation, fusion, and interpretation a
+major challenge. Moreover, the huge number of events and traffic
+inside a cloud could make it practically infeasible to collect and
+monitor all traffic in real time.
+
+The proposed project aims to address the above challenges from two
+perspectives: model and design. For the former, we need to decide what
+to collect, where to collect, and how to present. First, we will
+analyze typical security policies and properties, and extract their
+common features. For instance, reachability information among VMs
+could be used to pinpoint violations of access control and network
+isolation policies. Based on the extracted features, we will design
+algorithms for optimizing the deployment of data sensors in order to
+minimize the number of sensors, minimize the collection of
+semantically redundant data through aggregation, and minimize the
+overall amount of data to be monitored. Second, we will develop data
+fusion techniques to convert and normalize data collected from
+different sources into a uniform representation and consequently
+integrate and correlate data and information obtained from different
+data sources. Finally, we will integrate privacy preserving techniques
+in order to collect potentially sensitive traffic information without
+violating cloud tenants' privacy policies. For the latter, we will
+take a modular approach to the design of data collection and
+processing modules. We will design dynamic and generic data structures
+to represent the cloud states and state transitions
+(e.g. labeled-weighed
+digraph~\cite{Kazemian:2013:RTN:2482626.2482638}), security policies
+(e.g. regular expression~\cite{Kazemian:2013:RTN:2482626.2482638},
+CAPL~\cite{6753796}, SSLA~\cite{6274008} ) and real-time traffic
+(e.g. vector of TCP/IP header, header space
+analysis~\cite{Kazemian:2013:RTN:2482626.2482638}). Such data
+structures need to support incremental updates of necessary components
+to reflect frequently changes of the cloud infrastructure. The
+framework will be implemented through various loose-coupling modules
+developed for different objectives, such as, data collectors,
+correlation engines, auditing engines, and interfaces between the
+framework and the monitored cloud components. The information will be
+exchanged between these modules through uniform interfaces such as
+message queues, which will improve the scalability of the framework by
+rapidly adding and removing instances of modules on demand.
+
+
+
+\vspace{-3mm}
+
+\subsubsection{Compliance Verification Using SAT-based Bounded Model Checking}
+\label{subsec:BMC}
+\vspace{-2mm}
+
+The second and third line of research together propose a compliance
+verification framework that allows to verify the security postures of
+the tenants' applications against a pre-specified set of properties in
+a cloud computing environment. To achieve this goal, first, the
+specified properties need to be expressed in an appropriate
+specification language. Then, the framework should be able to interact
+with different elements of the SDN cloud layers through the
+aforementioned data collection module in order to learn different
+behaviors of the system. Based on these retrieved information, the
+framework will generate a compliance report that either prove or
+disprove the targeted properties. Properties can classified into two
+main categories: safety and liveliness properties. Informally, they
+ express that the security policies are not violated and
+that the compliance with security policies is respected,
+respectively.  In our framework, the properties we are interested in
+such as isolation, consistency, and security policies compliance, are
+mainly safety properties. We propose two candidate methodologies to be
+investigated in order to fulfill all requirements of our compliance
+verification framework. The first is a hybrid technique making use of
+both well established techniques in the literature, namely, model
+checking and SAT-based verification.  The second candidate is a custom
+runtime verification algorithm inspired by data streaming algorithms.
+
+%Model checking is a formal technique for automatically verifying that a finite-state model satisfies a temporal property.
+Model checking is a technique for automatically and exhaustively
+verifying the correctness of a set of properties against the behavior
+of a given system described as a finite state-transition model. The
+properties are usually expressed in temporal logic.  One of the most
+successful model checking approaches, known as symbolic model
+checking, is to represent the states of the system symbolically using
+Binary Decision Diagrams (BDD) and to reason about them. Although this
+approach has known successes, BDDs have been proven to be incapable of
+handling systems with increasing sizes and complexity\cite{surveySAT,
+  SATanaysis}.  SAT solvers, on the contrary, have been shown to be a
+potentially viable alternative for dealing with such kind of
+systems. Hence, to exploit their crucial properties, intensive efforts
+have been deployed to lead to interesting tools for efficiently
+solving Boolean Satisfiability problems. These improvements have made
+SAT solvers a good candidate to push further the limits of formal
+verification techniques, inter alia, model checking, in terms of both
+efficiency and capacity\cite{surveySAT, SATanaysis}.
+
+The Boolean Satisfiability problem solving consists of finding whether
+there exists a variables assignment under which a given propositional
+formula, usually represented in a Conjunctive Normal Form (CNF),
+evaluate to true. If such an assignment exists then the formula is
+said to be satisfiable, otherwise it is said to be unsatisfiable.
+Bounded Model Checking (BMC) is a restricted form of model checking
+that considers an execution bounded by some length $k$ in order to
+find out a counter example. In the SAT-based BMC, a model \textit {M}
+of the system is unfolded $k$ times, conjuncted with the negation of
+the property \textit{p} to be verified, then encoded as a
+propositional formula that will be converted into a CNF and solved by
+a SAT-solver. If the formula is satisfiable, this means  the
+property is violated. In this case, variables assignment corresponding
+to the counter-example is provided. Otherwise, the property holds and
+a proof can be obtained.  SAT-based BMC is most commonly used for
+checking safety properties, which makes it a good fit for our
+framework. Additionally, it is effective in finding bugs and providing
+counter example at high speed and it can cope with large problems by
+tuning the adequate parameter $k$.  SAT-based BMC has been
+successfully applied to industrial problems over the last few
+years. It has been shown through these attempts that SAT-based BMC
+significantly outperforms BDD-based model checkers in checking safety
+properties.
+%\[\varphi^k= I\wedge^{k-1}_{i=0} Ti\wedge \left(\neg P^k \right) \]
+
+
+
+\vspace{-3mm}
+\subsubsection{Custom Runtime Compliance Verification}
+\label{subsec:cusalgo}
+\vspace{-2mm} 
+
+Our second technique for compliance verification is motivated by the
+numerous benefits of runtime verification approaches. This technique
+has been proved useful for monitoring safety-critical reactive
+systems. It does not require building the system model as it operates
+on runtime. It rather evaluates a single execution path (behavior) at
+a time. This makes it particularly suitable to keep the system
+configuration compliant with the desired properties by allowing safe
+re-configurations only. For instance, for preserving control
+isolation, the verification should be done at runtime, otherwise all
+invariants should be re-verified on every network control message sent
+or received, which may cause an important overhead.  Moreover, when
+using runtime conflict verification, it is possible to gradually build
+up a set of conflict-free flow rules on every
+insertion/deletion/modification event of the rules.  SDN controllers
+dynamically interact with thousands of switches to update their
+configurations. For example, Big Switch's OpenFlow controller can
+handle 600,000 OpenFlow updates per second and NOX-MT controllers are
+designed to handle 1.6 million requests per second. In large cloud
+data centers, this can be even more exacerbated. If we assume that a
+rack generates 5,000 new flows per second, for 1000 racks, the
+controller should be able to handle 5,000,000 new flows to update ToR
+switches flow tables. 
+
+Another important factor to be considered is the dynamic live VM
+migrations that can trigger interactions at a high frequency between
+the controller and the switches, which would significantly increase
+the stream of configuration updates.  Being elastic and dynamic in
+nature, the cloud generated events may be considered as large streams
+of data. A data stream is a sequence of data or events that arrive
+continuously in real-time and at a very high rate
+\cite{streamingAlgo}. To be able to deal with this large amount of
+data, streaming algorithms \cite{streamingAlgo} might be a good fit
+for runtime verification by generating a system trace and checking
+whether it satisfies a temporal property at runtime.  Streaming
+algorithms are devised in a way to efficiently operate on a continuous
+stream of data within limited memory and processing time
+conditions. This aspect makes them adequate for high speed monitoring
+applications, which is evidenced in the networking community in which
+they have been used in many works for on the fly anomaly detection
+\cite{Liu:2009:DDS:1639562.1639596},
+\cite{Lall:2006:DSA:1140103.1140295}, \cite{4268161}.
+
+
+  
+\vspace{-3mm}
+\subsubsection{Hybrid Auditing of Security Policy Violation}
+\label{subsec:5.2}
+\vspace{-2mm} 
+
+This fourth line of research aims at developing hybrid auditing models
+that can rapidly detect the violation of security policies with low
+overhead based on aforementioned data collection and processing
+framework. The main challenges lie in following facts. First, the
+cloud states will frequently change. This means the security policy
+states in the cloud are transient and require the detection system to
+promptly reflect such changes. For instance, operations on a tenant,
+such as, VM migration, resource provisioning/de-provisioning, scaling
+up, scaling out, etc., may change the deployment of the security
+policies related to that tenant. Second, the noise rate in cloud is
+relatively high since various applications and tenants may share the
+same hardware, such as, host, data center, network devices, and
+corresponding traffic from/to a single device will be rich and
+diverse. This leads to difficulties in distinguishing normal traffic
+from abnormal traffic. Third, the diversity of security policies
+requires  cooperation among different auditing models to
+efficiently and effectively detect violations.
+
+The proposed research program aims to address the above issues as
+follows. First, we plan to develop policy-driven solutions for
+automatically updating the system for re-deploying the detecting
+points of the security policies. This requires an efficient mapping
+between the policies and their related cloud components. Second, we
+plan to integrate different detection techniques (anomaly based,
+signature based, ANN based, SDN based, etc.) into a distributed and
+compounded solution such that the advantages of each technique will be
+adaptively leveraged. For example, suppose that a security policy says
+that ``host $A$ is not allowed to access service $B$ in host $C$'',
+this policy can be formulated as a vector compatible with flow table
+entry in SDN data plane (there are $12$ fields in OpenFlow 1.1.0, and
+this example only needs five of them).  A violation of this policy can
+be simply indicated by the increase of the incoming packets count for
+the corresponding flow table entry in the switch $A$ connects. The
+other example is that self organizing maps (SOM)~\cite{5735752} will
+be used for the cases of high rate of noisy data. Third, we plan to
+develop a scoring model to capture the suitability of the techniques
+for the categories of policies. The model will allow the scores to be
+automatically adjusted and updated to reflect the previous detection
+results.
+
+
+\vspace{-3mm}
+\subsubsection{Work Plan}
+\label{subsec:schedule}
+\vspace{-2mm} 
+
+In this section, we present a tentative schedule for realizing the
+above research threads. We structure the proposal in 23 tasks as shown
+in Table 1, with a schedule depicted in the Gantt chart in Figure 1.
+
+
+
+%\vspace{-2mm}
+\begin{figure}[htb!]
+%\vspace{-5mm}
+  \begin{center}
+   \epsfysize=5in
+    \epsfbox{task.eps}
+%\caption{Tentative Schedule}
+ \label{fig:ag1}
+\vspace{-5mm}
+  \end{center}
+\end{figure}
+% \end{wrapfigure}
+
+
+%\vspace{-2mm}
+\begin{figure}[htb!]
+%\vspace{-5mm}
+  \begin{center}
+   \epsfysize=4in
+    \epsfbox{gantt.eps}
+\caption{Tentative Schedule}
+ \label{fig:ag}
+\vspace{-3mm}
+  \end{center}
+\end{figure}
+
+
+The owners and time of each task are also shown in the table and
+figure. Specifically,
+
+
+\vspace{-3mm}
+\begin{itemize}
+\addtolength{\itemsep}{-0.5\baselineskip}
+\item Ph.D.1 will be involved in T1 through T6, which are related to
+  the first research thread of developing a distributed and scalable
+  framework for data collection and processing. The PDF will assist
+  Ph.D.1 on theoretic aspects of those tasks. The M.Sc. will also be
+  involved in T6, the implementation of the framework.
+ 
+\item After that, Ph.D.1 will be involved in T16 through T19 related
+  to the fourth research thread of designing and implementing the
+  hybrid auditing of security policy violation. Again, the PDF will
+  assist Ph.D.1 on theoretic aspects of those tasks, and the
+  M.Sc. will be involved in T19, the implementation of the techniques.
+
+\item At the same time, Ph.D.2 will be involved in T7 through T15,
+  which are related to the second and third research threads of
+  developing techniques for compliance verification using SAT-based
+  bounded model checking and for custom runtime compliance
+  verification, respectively. The PDF will assist Ph.D.2 on theoretic
+  aspects of those tasks. The M.Sc. will also be involved in T11, 14,
+  and 15, the implementation of the techniques.
+
+\item Finally, Ph.D.1 and 2 will work on T20 through T23, with the
+  assistance of the PDF, for integrating the data collection and
+  processing module with the compliance verification and auditing
+  modules, and for deploying the integrated system, constructing test
+  cases, evaluating and fine tuning the system for optimal
+  performance.
+\end{itemize}
+
+\vspace{-3mm}
+\section{Team Expertise}
+\vspace{-2mm}
+
+The team is composed of two professors, two Ph.D. students, one
+M.Sc. student, a postdoctoral fellow, and a research professional. The
+role of the professors is to supervise the students along the
+project. Dr. Lingyu Wang will bring his experiences in Web application
+security and privacy, network security monitoring and detection to the
+proposed research, especially for the first and fourth research
+threads.  Dr. Mourad Debbabi will bring the needed know-how in cloud
+computing security and formal verification and validation techniques
+to the project, especially for the second and third research
+threads. The professors have an established record of fruitful and
+successful collaborations in addition to joint publications in
+conferences and journals as well as joint Ph.D. and M.Sc. student
+supervisions. From Ericsson Canada, Dr. Makan Pourzandi, who is in
+charge of the project at Ericsson, will bring his precious expertise
+in cloud infrastructures and SDN technology, and make a strong in-kind
+contribution to the proposed project. His contribution will be both
+technical and managerial. As such, he will:
+
+\vspace{-3mm}
+\begin{itemize}
+\addtolength{\itemsep}{-0.5\baselineskip}
+\item	Contribute to the execution of the entire project tasks by providing technical insights from an industrial perspective. 
+\item	Manage the relationship between the project team and the stakeholders from Ericsson product division units. 
+\item	Assist in the management of the research project by helping in the student supervision and the project follow-up. 
+\end{itemize}
+\vspace{-3mm} Dr. Makan Pourzandi has been assigned for contributing
+and coordinating the project from Ericsson's side to a level of 30\%
+of his time. Accordingly, his contribution is 500 hours per
+year. Dr. Pourzandi will be providing training and co-supervision for
+the graduate students at the Ericsson's site. He will be the receiver
+of the deliverables and in charge of their technical evaluation and
+(potential) implementation within Ericsson. In collaboration with the
+professor team of the project, he will be involved in
+evaluating different research alternatives that may arise during the
+course of the project.
+
+Furthermore, it is important to mention that three senior executives
+Mr. Pierre Boucher (Director Research and Innovation), Mr. Denis
+Monette (head of Ericsson research group in Montreal) and Mrs. Eva
+Fogelstrom (head of Ericson research in security) will closely follow
+the project. In addition, Ericsson identified several resources from
+product division units that will provide requirements, feedback and
+stimuli that will guide, inspire and invigorate the research conducted
+in this project. Therefore, the proposed team is highly cohesive.
+	
+\vspace{-3mm}
+\section{Research Management}
+\vspace{-2mm}
+%% Research management: Provide a plan for how the project will be managed to provide both day-to-day direction and scientific leadership, as well as maintain good communication between the university research group(s) and the industrial partner(s). If applicable, please detail the project manager's qualifications, involvement, role and responsibilities.
+
+
+The project team will meet on a regular basis, typically every week,
+to review scientific and technical decisions, as well as to brainstorm
+on potential difficulties in tasks execution, with meeting minutes
+shared with involved members. Any major task issue will be brought to
+the agenda of the upcoming project meeting. In addition, regular
+progress review meetings will be organized with the corresponding
+partner contributors at Ericsson.  In addition to periodic face to
+face meetings, the communication with partner contributors at Ericsson
+will also be based on teleconferences, emails and a Web portal made
+available to all members. Presentations and reports, which capture
+progress status and major outcomes and issues, will be shared with
+project members during the meetings and through the Web
+portal. Finally, the developed prototype will be made available for
+proof of concept demonstrations.
+
+
+\vspace{-3mm}
+\section{Training of Highly Qualified Personnel}
+\vspace{-2mm}
+
+The graduate students involved in this research will gain a precious
+expertise in the security auditing of cloud computing systems and
+applications. This expertise will span over both practical skills and
+theoretical foundations. In terms of theoretical foundations, they
+will receive a strong training in cloud infrastructure management, SDN
+technology, formal verification, anomaly and misuse detection
+principles, etc.  In terms of practical skills, the students will be
+trained in security analysis of cloud applications, design and
+implementation of formal languages and verification engines,
+development of detection algorithms, system integration and
+evaluation, etc. Such training is highly needed by
+industrial corporations and governmental organizations, and will
+provide the students with a competitive advantage in the
+employment market. It is important also to mention that students'
+exposure to Ericsson is beneficial to them from different
+perspectives: First, they will have the opportunity to collaborate
+with scientists and engineers from a major telecommunication
+corporation. Second, they will be exposed to real-life tools and
+systems on which they will carry out interesting and challenging
+security research and development tasks. Third, they will gain a
+precious understanding of the engineering problems in the corporate
+world. These benefits will result into a unique competitive advantage
+that will be highly beneficial to the students involved in their
+future academic or industrial career.
+
+\vspace{-3mm}
+\section{Value of the Results and Industrial Relevance}
+\vspace{-2mm} 
+
+The most valuable knowledge and technologies that would be transferred
+to the industry through this project include a general framework for
+automating compliance verification and auditing in cloud, a series of
+methods for collecting, aggregating, fusing, and processing data,
+languages and algorithms for formally verifying security properties
+and policies, and approaches to detecting violation of security
+requirements in real time. The key industrial relevance lies in the
+desirable capability of automatically providing evidences of security
+compliance to cloud tenants to ease their security concerns, and in
+the research prototype which can be integrated with existing cloud
+management systems, including the Ericsson Cloud Manager, as a
+value-added feature.
+
+\vspace{-3mm}
+\section{Benefit to Canada}
+\vspace{-2mm} 
+
+In addition to the benefits described in the previous section, this
+project will have immediate technological and economical benefits to
+Canada as it addresses a crucial issue, the lack of trust in cloud,
+which is currently preventing many Canadian companies and governmental
+agencies from adopting the new cloud paradigm as the most cost-saving
+IT solution. This research will produce a whole set of deliverables
+that will ease the adoption of cloud among such organizations and
+allow them to receive various benefits of cloud computing including a
+lower cost. Finally, the project will also contribute to the training
+of HQP in such a crucial industry for Canada, which increasingly
+demands highly specialized expertise that is difficult to find today.
+
+
+%\section{Contribution to the Training of Highly Qualified Personnel (HQP)}
+
+%One of the most important objectives of the proposed research is to
+%train highly qualified personnel in the much needed area of network
+%security metrics.  We expect the proposed research program to lead to
+%at least three Ph.D. dissertations and three master theses.  Each of
+%the four lines of research stated in Section~\ref{sec:research} will
+%involve one leading Ph.D. student and one supporting
+%M.Sc. student. The Ph.D. students will focus more on the theoretical
+%aspects of research, whereas the M.Sc. students will focus more on
+%pilot study, implementation, or evaluation aspects.  
+
+
+
+%.......
+
+
+
+
+
+
+
+
+\pagebreak
+
+\bibliographystyle{plain} \bibliography{prop,arc-detection}
+
+
+
+
+\end{document}

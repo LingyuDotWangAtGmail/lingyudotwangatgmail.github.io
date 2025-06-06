@@ -1,0 +1,13 @@
+@article{wang04jcs,
+ author = {Wang, Lingyu and Wijesekera, Duminda and Jajodia, Sushil},
+ title = {Cardinality-based inference control in data cubes},
+ journal = {J. Comput. Secur.},
+ volume = {12},
+ number = {5},
+ year = {2004},
+ issn = {0926-227X},
+ pages = {655--692},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+

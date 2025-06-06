@@ -1,0 +1,15 @@
+@inproceedings{wang07dbsec,
+  author = {Lingyu Wang and Anoop Singhal and Sushil Jajodia},
+  booktitle = {DBSec},
+  crossref = {conf/dbsec/2007},
+  editor = {Steve Barker and Gail-Joon Ahn},
+  pages = {98-112},
+  publisher = {Springer},
+  series = {Lecture Notes in Computer Science},
+  title = {Measuring the Overall Security of Network Configurations Using Attack Graphs.},
+  url = {http://dblp.uni-trier.de/db/conf/dbsec/dbsec2007.html#WangSJ07},
+  volume = {4602},
+  year = {2007},
+  isbn = {978-3-540-73533-5},
+  date = {2007-08-24}
+}

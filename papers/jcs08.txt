@@ -1,0 +1,13 @@
+@article{wang08jcs,
+ author = {Wang, Lingyu and Yao, Chao and Singhal, Anoop and Jajodia, Sushil},
+ title = {Implementing interactive analysis of attack graphs using relational databases},
+ journal = {J. Comput. Secur.},
+ volume = {16},
+ number = {4},
+ year = {2008},
+ issn = {0926-227X},
+ pages = {419--437},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+
